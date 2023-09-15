@@ -1,0 +1,124 @@
+/* *Common css starts  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+li, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    width:1170px ;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center; 
+
+} 
+
+/* *Common css ends  */
+
+
+
+/** navbar starts */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+    
+
+}
+
+nav .menu{
+    width: 60%;
+    text-align: right;
+    
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+nav .menu  li a{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-weight: 800px;
+    padding:26px 25px ; 
+    text-transform: uppercase;
+}
+/** navbar ends */
+
+/* **banner section starts */
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 728px;
+    background-size: cover;
+
+}
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+.banner-cont{
+    text-align: center;
+    color: white;
+}
+.banner-cont h4{
+    
+    font-weight: 800px;
+    font-size:30px ;
+
+}
+.banner-cont h1{
+    
+    font-weight: 800px;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    
+}
+.banner-cont p{
+    font-size: 18px;
+    font-weight: 800px;
+
+}
+.banner-cont img{
+    margin: 52px 0;
+    
+}
+.banner-cont a{
+    display: inline-block;
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-weight: 800px;
+    font-size: 14px;
+    padding: 19px 43px;
+    text-transform: uppercase;
+    border-radius: 4px;
+
+
+    
+
+
+}
+
+
+/* **banner section ends */
